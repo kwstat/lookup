@@ -1,0 +1,18 @@
+Package: lookup
+Type: Package
+Title: Alternatives to the "match" Function
+Version: 0.1
+Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com",
+                  comment=c(ORCID = "0000-0002-0617-8673"),
+                  role=c("aut","cre"))
+Description: Lookup items in key-value pairs.
+URL: http://kwstat.github.io/lookup/
+BugReports: https://github.com/kwstat/lookup/issues
+License: MIT
+Language: en-US
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

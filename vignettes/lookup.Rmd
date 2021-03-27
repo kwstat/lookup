@@ -1,0 +1,20 @@
+---
+title: "lookup"
+author: "Kevin Wright"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{lookup}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+https://twitter.com/JennyBryan/status/980978609794895872
+
