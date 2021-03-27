@@ -8,11 +8,14 @@ Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com",
 Description: Lookup items in key-value pairs.
 URL: http://kwstat.github.io/lookup/
 BugReports: https://github.com/kwstat/lookup/issues
-License: MIT
+License: MIT + file LICENSE
 Language: en-US
 Encoding: UTF-8
 LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
+RoxygenNote: 7.1.1

@@ -8,13 +8,27 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+## A simple example
+
+The following example shows one use-case.  Using Anderson's `iris` data, we calculate the regression of `Petal.Length` on `Sepal.Length` for each `Species` and then merge this slope coefficient back into the original data.
+
+```{r}
+coefs  <- lapply(split(iris, iris$Species),
+                 function(dat) lm(Petal.Length~Sepal.Length, dat)$coef)
+coefs <- do.call("rbind",coefs)
+coefs <- as.data.frame(coefs)
+coefs$Species <- rownames(coefs)
+coefs
+
+library(lookup)
+iris = transform(iris,
+                 slope1 = lookup(iris$Species, coefs$Species, coefs[,"Sepal.Length"]),
+                 slope2 = vlookup(iris$Species, coefs, "Species", "Sepal.Length"))
+head(iris)
 ```
 
+Admittedly, a better way to approach this problem would be with the `dplyr` package and the `group_by` and `summarize` functions. But, this example does not depend on external packages.
 
-https://twitter.com/JennyBryan/status/980978609794895872
+## History
 
+I wrote the `lookup()` function for my own personal use sometime before 2005. When Jenny Bryan posted `vlookup()` on [Twitter](https://twitter.com/JennyBryan/status/980978609794895872), I modified her version and decided there would be value in making these functions widely available in a package.
