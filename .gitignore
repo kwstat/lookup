@@ -23,4 +23,3 @@ vignettes/*.tex
 .Rdata
 .httr-oauth
 .DS_Store
-docs
