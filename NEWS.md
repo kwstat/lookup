@@ -5,4 +5,4 @@ First release to CRAN.
 
 # lookup 0.1 (2005)
 
-Fucntion `lookup()` is created.
+Function `lookup()` is created.
