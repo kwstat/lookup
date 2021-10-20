@@ -31,4 +31,4 @@ Admittedly, a better way to approach this problem would be with the `dplyr` pack
 
 ## History
 
-I wrote the `lookup()` function for my own personal use sometime before 2005. When Jenny Bryan posted `vlookup()` on [Twitter](https://twitter.com/JennyBryan/status/980978609794895872), I modified her version and decided there would be value in making these functions widely available in a package.
+I wrote the `lookup()` function for my own personal in 2004 for the simple reason that I could never remember the syntax of the `merge()` function. When Jenny Bryan posted `vlookup()` on [Twitter](https://twitter.com/JennyBryan/status/980978609794895872), I modified her version and decided there would be value in making both of these functions widely available in a package.

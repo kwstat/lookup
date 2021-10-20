@@ -1,9 +1,12 @@
 # lookup.R
 
+#' @title
 #' Lookup items in key-value pairs of vectors
 #'
+#' @description
 #' This is a simple wrapper to the \code{match} function.
 #'
+#' @details 
 #' Search for elements of \code{x} in \code{key} and return the corresponding
 #' element of \code{value}.
 #' If no match is found, return \code{nomatch}.
@@ -49,10 +52,13 @@ lookup <- function(x,key,value, nomatch=NA){
 }
 
 
+#' @title
 #' Lookup items in key-value dataframe similar to Excel's vlookup function
 #'
+#' @description
 #' This is a simple wrapper to the \code{match} function.
 #'
+#' @details
 #' Search for elements of \code{x} in dataframe \code{data},
 #' column \code{key}, and return the corresponding element of column
 #' \code{value}.

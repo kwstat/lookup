@@ -1,10 +1,15 @@
+# lookup 1.0
+
 ## Test environments
+
 * local R installation, R 4.0.4
-* ubuntu 16.04 (on travis-ci), R 4.0.4
 * win-builder (devel)
+* rhub::check_for_cran()
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
-
-* This is a new release.
+Possibly mis-spelled words in DESCRIPTION:
+  Mehta (8:72)
+New submission
+  VLOOKUP (3:29)
+Maintainer: 'Kevin Wright <kw.stat@gmail.com>'

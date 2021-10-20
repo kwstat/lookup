@@ -1,5 +1,5 @@
 
-# lookup 0.2 (Apr 2021)
+# lookup 1.0 (Apr 2021)
 
 First release to CRAN.
 

@@ -1,17 +1,16 @@
 Package: lookup
 Type: Package
 Title: Functions Similar to VLOOKUP in Excel
-Version: 0.1
+Version: 1.0
 Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com",
                   comment=c(ORCID = "0000-0002-0617-8673"),
                   role=c("aut","cre"))
 Description: Simple functions to lookup items in key-value pairs. See  Mehta (2021) <doi:10.1007/978-1-4842-6613-7_6>.
-URL: http://kwstat.github.io/lookup/
+URL: https://kwstat.github.io/lookup/
 BugReports: https://github.com/kwstat/lookup/issues
 License: MIT + file LICENSE
 Language: en-US
 Encoding: UTF-8
-LazyData: true
 Suggests: 
     knitr,
     rmarkdown,

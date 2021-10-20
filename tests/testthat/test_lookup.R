@@ -2,8 +2,8 @@
 
 dat = as.data.frame(state.x77)
 dat$statename = rownames(dat)
-lookup(state.name, dat$statename, dat$Frost)
-vlookup(state.name, dat, "statename", "Frost")
+#lookup(state.name, dat$statename, dat$Frost)
+#vlookup(state.name, dat, "statename", "Frost")
 
 test_that("lookup", {
   expect_equal(
