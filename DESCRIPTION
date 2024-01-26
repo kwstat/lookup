@@ -4,7 +4,7 @@ Title: Functions Similar to VLOOKUP in Excel
 Version: 1.0
 Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com",
                   comment=c(ORCID = "0000-0002-0617-8673"),
-                  role=c("aut","cre"))
+                  role=c("aut","cre","cph"))
 Description: Simple functions to lookup items in key-value pairs. See  Mehta (2021) <doi:10.1007/978-1-4842-6613-7_6>.
 URL: https://kwstat.github.io/lookup/
 BugReports: https://github.com/kwstat/lookup/issues
