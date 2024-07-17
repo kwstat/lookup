@@ -1,20 +1,22 @@
-Package: lookup
 Type: Package
+Package: lookup
 Title: Functions Similar to VLOOKUP in Excel
 Version: 1.0
-Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com",
-                  comment=c(ORCID = "0000-0002-0617-8673"),
-                  role=c("aut","cre","cph"))
-Description: Simple functions to lookup items in key-value pairs. See  Mehta (2021) <doi:10.1007/978-1-4842-6613-7_6>.
+Authors@R: 
+    person("Kevin", "Wright", , "kw.stat@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-0617-8673"))
+Description: Simple functions to lookup items in key-value pairs. See
+    Mehta (2021) <doi:10.1007/978-1-4842-6613-7_6>.
+License: MIT + file LICENSE
 URL: https://kwstat.github.io/lookup/
 BugReports: https://github.com/kwstat/lookup/issues
-License: MIT + file LICENSE
-Language: en-US
-Encoding: UTF-8
 Suggests: 
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
-VignetteBuilder: knitr
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
-RoxygenNote: 7.1.1
+Encoding: UTF-8
+Language: en-US
+RoxygenNote: 7.3.2
